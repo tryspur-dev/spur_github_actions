@@ -1,0 +1,9 @@
+name: 'Spur Test Report'
+description: 'Generates a report of Spur test results and posts it as a PR comment'
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
